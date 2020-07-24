@@ -17,14 +17,14 @@ public:
 };
 
 Box::Box(int mLenght, int mWidth, int mHeight, string mColor) {
-	this->mLenght;
-	this->mWidth;
-	this->mHeight;
-	this->mColor;
+	this->mLenght = mLenght;
+	this->mWidth = mWidth;
+	this->mHeight = mHeight;
+	this->mColor = mColor;
 }
 
 int Box::getVolume() {
-	return this->mLenght * this->mWidth * this->mHeight;
+		return this->mLenght * this->mWidth * this->mHeight;
 }
 
 string Box::getColor() {
