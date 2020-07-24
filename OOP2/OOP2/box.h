@@ -11,7 +11,7 @@ public:
 	Box(int lenght, int width, int height);
 	int getVolume();
 	int getLenght();
-
+	void setColor(string color);
 
 };
 
@@ -32,4 +32,9 @@ int Box::getVolume() {
 //Accessor
 int Box::getLenght() {
 	return this->lenght;
+}
+
+//Mutator
+void Box::setColor(string color) {
+	this->color;
 }
