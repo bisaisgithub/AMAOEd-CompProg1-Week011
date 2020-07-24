@@ -8,7 +8,7 @@ private:
 	int lenght, width, height;
 
 public:
-	Box(int, int, int);
+	Box(int lenght, int width, int height);
 	int getVolume();
 	int getLenght();
 
